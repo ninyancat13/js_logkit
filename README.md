@@ -1,1 +1,1 @@
-# js_logkit
+# logkit-js
