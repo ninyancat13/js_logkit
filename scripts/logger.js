@@ -4,11 +4,11 @@ const INFO = "20"
 module.exports = {
   
   info: function(message, data) {
-        require('dotenv').config();
+        //require('dotenv').config();
         const net = require('net');
         const client = new net.Socket();
-        //const port = 9200;
-        //const host = '127.0.0.1';
+        const port = 9200;
+        const host = '127.0.0.1';
         const time = (new Date()).toISOString();
         const values = json_check(message, data)
         message = values[0]
